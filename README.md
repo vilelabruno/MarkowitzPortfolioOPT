@@ -1,2 +1,2 @@
-# MarcowitzPortfolioOPT
-implementation for marcowitz portfolio theory using brazillian shares
+# MarkowitzPortfolioOPT
+implementation for markowitz portfolio theory using brazillian shares
