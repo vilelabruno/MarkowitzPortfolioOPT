@@ -85,10 +85,12 @@ def marko1():
     m3s7 = (shDf["m3P"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) 
     m3s8 = (shDf["m3P"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) 
     
-    cov = (1/3) * ( (m1s1 * m1s2* m1s3* m1s4* m1s5* m1s6* m1s7* m1s8) +(m2s1 * m2s2* m2s3* m2s4* m2s5* m2s6* m2s7* m2s8) +(m3s1 * m3s2* m3s3* m3s4* m3s5* m3s6* m3s7* m3s8))
-    print(cov)
+    cov = (1/2) * ( (m1s1 * m1s2* m1s3* m1s4* m1s5* m1s6* m1s7* m1s8) +(m2s1 * m2s2* m2s3* m2s4* m2s5* m2s6* m2s7* m2s8) +(m3s1 * m3s2* m3s3* m3s4* m3s5* m3s6* m3s7* m3s8))
+    print('Covariance: '+str(cov))
     #shDf.to_csv("shDf.csv", index=False)
     #print(shDf)
+    corre = cov / shDf['stdDev'].prod() #Correlation
+    print('Correlation: '+str(corre))
 
 def marko2():
     shares, weight = readFile('necton')
