@@ -2,6 +2,8 @@ from pandas_datareader import data
 import datetime
 import pandas as pd
 import numpy as np
+import more_itertools as mit
+
 
 def readFile(stockbroker):
     shares = []
@@ -67,28 +69,23 @@ def marko2():
     df = data.DataReader(shares, 'yahoo', start_date, end_date)
     df.reset_index(inplace=True)
     df[("Close", "TGAR11.SA")][df[("Date","")] == "2020-02-28"] = 131.80
-    getFirstLastDaysOfMonth(2019, 12, df)
     
+    months = [12, 1, 2]
     ri = []
     for share in shares:
-        init = df['Open'][share][df['Date'] == '2019-12-03'].iloc[0]
-        fin = df['Close'][share][df['Date'] == '2019-12-30'].iloc[0]
-        ror = ((fin - init) / init) * 100 # Rate of return
+        for m in months:
+            first, last = getFirstLastDaysOfMonth(m, df)
+            init = df['Open'][share][df['Date'] == first].iloc[0]
+            fin = df['Close'][share][df['Date'] == last].iloc[0]
+            ror = ((fin - init) / init) * 100 # Rate of return
         
-        init = df['Open'][share][df['Date'] == '2020-01-02'].iloc[0]
-        fin = df['Close'][share][df['Date'] == '2020-01-31'].iloc[0]
-        ror += ((fin - init) / init) * 100 # Rate of return
-        
-        init = df['Open'][share][df['Date'] == '2020-02-03'].iloc[0]
-        fin = df['Close'][share][df['Date'] == '2020-02-28'].iloc[0]
-        ror += ((fin - init) / init) * 100 # Rate of return
-        ri.append(ror/3)
+            ri.append(ror/3)
         
     eror = 0
     for i in range(0, len(weight)):
         eror += float(weight[i]) * float(ri[i])
     
-    print(eror)
+    print('Extimated Rate of Return: '+str(eror))
 def marko3():
     return True
 def marko4():
@@ -99,13 +96,14 @@ def marko6():
     return True
 def marko7():
     return True
-def getFirstLastDaysOfMonth(year, month, dataframe):
+def getFirstLastDaysOfMonth(month, dataframe):
     first = 0
     last = 0
     
-    print(dataframe['Date'][dataframe['Date'].apply(lambda x: x.month) == month][0])
+    first = mit.first(dataframe['Date'][dataframe['Date'].apply(lambda x: x.month) == month])
+    last = mit.last(dataframe['Date'][dataframe['Date'].apply(lambda x: x.month) == month])
     
-    return first, last
+    return str(first.date()), str(last.date())
 
 #if __name__ == 'main':
 marko1()
