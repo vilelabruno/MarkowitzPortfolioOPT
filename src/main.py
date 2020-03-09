@@ -8,7 +8,7 @@ import more_itertools as mit
 def readFile(stockbroker):
     shares = []
     weight = []
-    with open("januaryData/"+stockbroker+".txt") as prtf:
+    with open("../januaryData/"+stockbroker+".txt") as prtf:
         shares = prtf.readline().split(",")
         shares[len(shares)-1] = shares[len(shares)-1].strip()
         weight = prtf.readline().split(",")
@@ -58,8 +58,37 @@ def marko1():
     shDf["m3EQ"] = shDf["m3E"] **2
     shDf["variance"] = (shDf["m1EQ"] +shDf["m2EQ"] +shDf["m3EQ"]) * (1/(3-1))
     shDf["stdDev"] = shDf["variance"] ** (1/2)
+    m1s1 = (shDf["m1P"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) 
+    m1s2 = (shDf["m1P"][shDf["share"] == "HABT11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "HABT11.SA"].iloc[0]*100) 
+    m1s3 = (shDf["m1P"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) 
+    m1s4 = (shDf["m1P"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) 
+    m1s5 = (shDf["m1P"][shDf["share"] == "THRA11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "THRA11.SA"].iloc[0]*100) 
+    m1s6 = (shDf["m1P"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) 
+    m1s7 = (shDf["m1P"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) 
+    m1s8 = (shDf["m1P"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) - (shDf["m1E"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) 
+    
+    m2s1 = (shDf["m2P"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) 
+    m2s2 = (shDf["m2P"][shDf["share"] == "HABT11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "HABT11.SA"].iloc[0]*100) 
+    m2s3 = (shDf["m2P"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) 
+    m2s4 = (shDf["m2P"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) 
+    m2s5 = (shDf["m2P"][shDf["share"] == "THRA11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "THRA11.SA"].iloc[0]*100) 
+    m2s6 = (shDf["m2P"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) 
+    m2s7 = (shDf["m2P"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) 
+    m2s8 = (shDf["m2P"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) - (shDf["m2E"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) 
+    
+    m3s1 = (shDf["m3P"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "GGRC11.SA"].iloc[0]*100) 
+    m3s2 = (shDf["m3P"][shDf["share"] == "HABT11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HABT11.SA"].iloc[0]*100) 
+    m3s3 = (shDf["m3P"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HFOF11.SA"].iloc[0]*100) 
+    m3s4 = (shDf["m3P"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "UBSR11.SA"].iloc[0]*100) 
+    m3s5 = (shDf["m3P"][shDf["share"] == "THRA11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "THRA11.SA"].iloc[0]*100) 
+    m3s6 = (shDf["m3P"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "TGAR11.SA"].iloc[0]*100) 
+    m3s7 = (shDf["m3P"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HGBS11.SA"].iloc[0]*100) 
+    m3s8 = (shDf["m3P"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) - (shDf["m3E"][shDf["share"] == "HGPO11.SA"].iloc[0]*100) 
+    
+    cov = (1/3) * ( (m1s1 * m1s2* m1s3* m1s4* m1s5* m1s6* m1s7* m1s8) +(m2s1 * m2s2* m2s3* m2s4* m2s5* m2s6* m2s7* m2s8) +(m3s1 * m3s2* m3s3* m3s4* m3s5* m3s6* m3s7* m3s8))
+    print(cov)
     #shDf.to_csv("shDf.csv", index=False)
-    print(shDf)
+    #print(shDf)
 
 def marko2():
     shares, weight = readFile('necton')
@@ -108,7 +137,7 @@ def getFirstLastDaysOfMonth(month, dataframe):
 #if __name__ == 'main':
 marko1()
 #marko2()
-marko3()
+#marko3()
 marko4()
 marko5()
 marko6()
