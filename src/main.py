@@ -6,7 +6,7 @@ import numpy as np
 def readFile(stockbroker):
     shares = []
     weight = []
-    with open("../januaryData/"+stockbroker+".txt") as prtf:
+    with open("januaryData/"+stockbroker+".txt") as prtf:
         shares = prtf.readline().split(",")
         shares[len(shares)-1] = shares[len(shares)-1].strip()
         weight = prtf.readline().split(",")
@@ -17,15 +17,15 @@ def marko1():
     shares = []
     monthReturn = []
     weight = []
-    shares, weight = readFile("xp")
+    shares, weight = readFile("necton")
     start_date = '2019-12-03'
     end_date = '2020-03-03'
 
     returnArr = []
     df = data.DataReader(shares, 'yahoo', start_date, end_date)
     df.reset_index(inplace=True)
-    #df[("Open", "TGAR11.SA")][df[("Date","")] == "2020-03-03"] = 131.80 #yahoo finance dont returning correct value here 
-
+    df[("Open", "TGAR11.SA")][df[("Date","")] == "2020-03-03"] = 131.80 #yahoo finance dont returning correct value here 
+    #df.to_csv("dr.csv", index=False)
     shDf = pd.DataFrame(shares,columns=["share"])
     shDf.reset_index(inplace=True)
     shDf["m1R"] = 0
@@ -48,14 +48,15 @@ def marko1():
         shDf["m2P"][shDf["share"] == share] = (cl2.iloc[0] - op2.iloc[0]) / df[('Open', share)][df[("Date","")] == "2020-01-03"].iloc[0]
         shDf["m3R"][shDf["share"] == share] = (cl3.iloc[0] - op3.iloc[0])
         shDf["m3P"][shDf["share"] == share] = (cl3.iloc[0] - op3.iloc[0]) / df[('Open', share)][df[("Date","")] == "2020-03-03"].iloc[0]
-    shDf["m1E"] = (shDf["m1P"] - shDf["m1P"].sum()) * 100
-    shDf["m2E"] = (shDf["m2P"] - shDf["m2P"].sum()) * 100
-    shDf["m3E"] = (shDf["m3P"] - shDf["m3P"].sum()) * 100
+    shDf["m1E"] = (shDf["m1P"] - (shDf["m1P"]+shDf["m2P"]+shDf["m3P"])) * 100
+    shDf["m2E"] = (shDf["m2P"] - (shDf["m1P"]+shDf["m2P"]+shDf["m3P"])) * 100
+    shDf["m3E"] = (shDf["m3P"] - (shDf["m1P"]+shDf["m2P"]+shDf["m3P"])) * 100
     shDf["m1EQ"] = shDf["m1E"] **2
     shDf["m2EQ"] = shDf["m2E"] **2
     shDf["m3EQ"] = shDf["m3E"] **2
     shDf["variance"] = (shDf["m1EQ"] +shDf["m2EQ"] +shDf["m3EQ"]) * (1/(3-1))
     shDf["stdDev"] = shDf["variance"] ** (1/2)
+    #shDf.to_csv("shDf.csv", index=False)
     print(shDf)
 
 def marko2():
@@ -107,8 +108,8 @@ def getFirstLastDaysOfMonth(year, month, dataframe):
     return first, last
 
 #if __name__ == 'main':
-#marko1()
-marko2()
+marko1()
+#marko2()
 marko3()
 marko4()
 marko5()
