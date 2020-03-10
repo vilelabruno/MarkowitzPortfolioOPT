@@ -8,7 +8,7 @@ import more_itertools as mit
 def readFile(stockbroker):
     shares = []
     weight = []
-    with open("../januaryData/"+stockbroker+".txt") as prtf:
+    with open("../februaryData/"+stockbroker+".txt") as prtf:
         shares = prtf.readline().split(",")
         shares[len(shares)-1] = shares[len(shares)-1].strip()
         weight = prtf.readline().split(",")
@@ -19,14 +19,14 @@ def marko1():
     shares = []
     monthReturn = []
     weight = []
-    shares, weight = readFile("necton")
+    shares, weight = readFile("itau")
     start_date = '2019-12-03'
     end_date = '2020-03-03'
 
     returnArr = []
     df = data.DataReader(shares, 'yahoo', start_date, end_date)
     df.reset_index(inplace=True)
-    df[("Open", "TGAR11.SA")][df[("Date","")] == "2020-03-03"] = 131.80 #yahoo finance dont returning correct value here 
+    #df[("Open", "TGAR11.SA")][df[("Date","")] == "2020-03-03"] = 131.80 #yahoo finance dont returning correct value here 
     #df.to_csv("dr.csv", index=False)
     shDf = pd.DataFrame(shares,columns=["share"])
     shDf.reset_index(inplace=True)
@@ -59,8 +59,8 @@ def marko1():
     shDf["variance"] = (shDf["m1EQ"] +shDf["m2EQ"] +shDf["m3EQ"]) * (1/(3-1))
     shDf["stdDev"] = shDf["variance"] ** (1/2)
     shDf["mi"] = (shDf["m1E"] + shDf["m2E"] + shDf["m3E"]) /3
-    assets = ["GGRC11.SA","HABT11.SA","HFOF11.SA","UBSR11.SA","THRA11.SA","TGAR11.SA","HGBS11.SA","HGPO11.SA"]
-        
+    assets = shDf.share.values
+    print(shDf)
     for asset1 in assets:
         shDf[asset1] = 0
     for asset1 in assets:
@@ -72,7 +72,7 @@ def marko1():
     print(shDf)
     #cov = (1/2) * ( (m1s1 * m1s2* m1s3* m1s4* m1s5* m1s6* m1s7* m1s8) +(m2s1 * m2s2* m2s3* m2s4* m2s5* m2s6* m2s7* m2s8) +(m3s1 * m3s2* m3s3* m3s4* m3s5* m3s6* m3s7* m3s8))
     #print('Covariance: '+str(cov))
-    shDf.to_csv("shDf.csv", index=False)
+    shDf.to_csv("shDf2.csv", index=False)
     ##print(shDf)
     #corre = cov / shDf['stdDev'].prod() #Correlation
     #print('Correlation: '+str(corre))

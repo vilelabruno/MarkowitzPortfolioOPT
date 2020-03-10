@@ -1,6 +1,6 @@
 import pandas as pd
 
-shDf = pd.read_csv("../output/shDf.csv")
+shDf = pd.read_csv("shDf2.csv")
 
 with open("shDf.txt", "w") as shDfT:
     for vl in shDf["share"].values:
