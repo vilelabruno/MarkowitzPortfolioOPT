@@ -58,7 +58,7 @@ def marko1():
     shDf["m3EQ"] = shDf["m3E"] **2
     shDf["variance"] = (shDf["m1EQ"] +shDf["m2EQ"] +shDf["m3EQ"]) * (1/(3-1))
     shDf["stdDev"] = shDf["variance"] ** (1/2)
-
+    shDf["mi"] = (shDf["m1E"] + shDf["m2E"] + shDf["m3E"]) /3
     assets = ["GGRC11.SA","HABT11.SA","HFOF11.SA","UBSR11.SA","THRA11.SA","TGAR11.SA","HGBS11.SA","HGPO11.SA"]
         
     for asset1 in assets:
@@ -75,7 +75,7 @@ def marko1():
     shDf.to_csv("shDf.csv", index=False)
     ##print(shDf)
     #corre = cov / shDf['stdDev'].prod() #Correlation
-    print('Correlation: '+str(corre))
+    #print('Correlation: '+str(corre))
 
 def marko2():
     shares, weight = readFile('necton')
