@@ -1,0 +1,406 @@
+- {Exchange: NYQ, Name: Barnes Group Inc., Ticker: B, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: The Boeing Company, Ticker: BA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Bank of America Corporation, Ticker: BAC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYS, Name: Alibaba Group Holding Limited, Ticker: BABA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: BP PLC, Ticker: BP, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Berkshire Hathaway Inc., Ticker: BRK-B, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Beyond Meat, Inc.', Ticker: BYND, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NGM, Name: Broadcom Inc., Ticker: AVGO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Biocept, Inc.', Ticker: BIOC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Barrick Gold Corporation, Ticker: GOLD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Citigroup Inc., Ticker: C, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Carnival Corporation & Plc, Ticker: CCL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Co-Diagnostics, Inc.', Ticker: CODX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Colgate-Palmolive Company, Ticker: CL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Chesapeake Energy Corporation, Ticker: CHK, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Chevron Corporation, Ticker: CVX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Costco Wholesale Corporation, Ticker: COST, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Cisco Systems, Inc.', Ticker: CSCO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: OBB, Name: 'Cocrystal Pharma, Inc.', Ticker: COCP, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: OTC BB}
+- {Exchange: NYQ, Name: Canopy Growth Corporation, Ticker: CGC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Dominion Energy, Inc.', Ticker: D, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: The Walt Disney Company, Ticker: DIS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: DJI, Name: Dow Jones Industrial Average, Ticker: ^DJI, Type: I, TypeDisplay: Index,
+  exchangeDisplay: Dow Jones}
+- {Exchange: NYQ, Name: 'Delta Air Lines, Inc.', Ticker: DAL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Dow Inc., Ticker: DOW, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Devon Energy Corporation, Ticker: DVN, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Diamondback Energy, Inc.', Ticker: FANG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Quest Diagnostics Incorporated, Ticker: DGX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Denbury Resources Inc., Ticker: DNR, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Digirad Corporation, Ticker: DRAD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Eni S.p.A., Ticker: E, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Exxon Mobil Corporation, Ticker: XOM, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Energy Transfer LP, Ticker: ET, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: PCX, Name: Energy Select Sector SPDR Fund, Ticker: XLE, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NYQ, Name: Enterprise Products Partners L.P., Ticker: EPD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Enzo Biochem, Inc.', Ticker: ENZ, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Enphase Energy, Inc.', Ticker: ENPH, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NGM, Name: Exact Sciences Corporation, Ticker: EXAS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'EOG Resources, Inc.', Ticker: EOG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Enbridge Inc., Ticker: ENB, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Ford Motor Company, Ticker: F, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Facebook, Inc.', Ticker: FB, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NGM, Name: 'FuelCell Energy, Inc.', Ticker: FCEL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: OBB, Name: Federal National Mortgage Association, Ticker: FNMA, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: OTC BB}
+- {Exchange: NYQ, Name: Freeport-McMoRan Inc., Ticker: FCX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: FedEx Corporation, Ticker: FDX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: First Horizon National Corporation, Ticker: FHN, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYS, Name: 'Fastly, Inc.', Ticker: FSLY, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Genpact Limited, Ticker: G, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Gilead Sciences, Inc.', Ticker: GILD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: PNK, Name: 'Gadsden Properties, Inc.', Ticker: GADS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: OTC Markets}
+- {Exchange: NYQ, Name: General Electric Company, Ticker: GE, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: SNP, Name: S&P 500, Ticker: ^GSPC, Type: I, TypeDisplay: Index, exchangeDisplay: SNP}
+- {Exchange: NMS, Name: Alphabet Inc., Ticker: GOOG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: General Motors Company, Ticker: GM, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Geron Corporation, Ticker: GERN, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: PCX, Name: SPDR Gold Shares, Ticker: GLD, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NMS, Name: 'Genprex, Inc.', Ticker: GNPX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Hyatt Hotels Corporation, Ticker: H, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Heat Biologics, Inc.', Ticker: HTBX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Halliburton Company, Ticker: HAL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'The Home Depot, Inc.', Ticker: HD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Honeywell International Inc., Ticker: HON, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: HP Inc., Ticker: HPQ, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Hewlett Packard Enterprise Company, Ticker: HPE, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Helmerich & Payne, Inc.', Ticker: HP, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: HSBC Holdings plc, Ticker: HSBC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYS, Name: 'Hertz Global Holdings, Inc.', Ticker: HTZ, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Intelsat S.A., Ticker: I, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NGM, Name: IMARA INC., Ticker: IMRA, Type: S, TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Inovio Pharmaceuticals, Inc.', Ticker: INO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'iBio, Inc.', Ticker: IBIO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Invesco QQQ Trust, Ticker: QQQ, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Intel Corporation, Ticker: INTC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: International Business Machines Corporation, Ticker: IBM,
+  Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: iShares 20+ Year Treasury Bond ETF, Ticker: TLT, Type: E,
+  TypeDisplay: ETF, exchangeDisplay: NASDAQ}
+- {Exchange: NIM, Name: NASDAQ Composite, Ticker: ^IXIC, Type: I, TypeDisplay: Index,
+  exchangeDisplay: NASDAQ GIDS}
+- {Exchange: PCX, Name: iPath Series B S&P 500 VIX Short-Term Futures ETN, Ticker: VXX,
+  Type: E, TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: NMS, Name: Jacobs Engineering Group Inc., Ticker: J, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: JPMorgan Chase & Co., Ticker: JPM, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Johnson & Johnson, Ticker: JNJ, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: JetBlue Airways Corporation, Ticker: JBLU, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'JD.com, Inc.', Ticker: JD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'J. C. Penney Company, Inc.', Ticker: JCP, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: PCX, Name: U.S. Global Jets ETF, Ticker: JETS, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: HKG, Name: Jiu Zun Digital Interactive Entertainment Group Holdings Limited,
+  Ticker: 1961.HK, Type: S, TypeDisplay: Equity, exchangeDisplay: Hong Kong}
+- {Exchange: PCX, Name: Direxion Daily Junior Gold Miners Index Bull 3X Shares, Ticker: JNUG,
+  Type: E, TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: NYS, Name: Jumia Technologies AG, Ticker: JMIA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Kellogg Company, Ticker: K, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: The Coca-Cola Company, Ticker: KO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: The Kraft Heinz Company, Ticker: KHC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'Kinder Morgan, Inc.', Ticker: KMI, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: The Kroger Co., Ticker: KR, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Kohl's Corporation, Ticker: KSS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Kimberly-Clark Corporation, Ticker: KMB, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: HKG, Name: 'Kidztech (Guangdong) Intelligent Technology Co., Ltd.', Ticker: 6918.HK,
+  Type: S, TypeDisplay: Equity, exchangeDisplay: Hong Kong}
+- {Exchange: NYQ, Name: KeyCorp, Ticker: KEY, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Loews Corporation, Ticker: L, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Luckin Coffee Inc., Ticker: LK, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Southwest Airlines Co., Ticker: LUV, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Lockheed Martin Corporation, Ticker: LMT, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Leidos Holdings, Inc.', Ticker: LDOS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Lyft, Inc.', Ticker: LYFT, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'LivePerson, Inc.', Ticker: LPSN, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Las Vegas Sands Corp., Ticker: LVS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Laboratory Corporation of America Holdings, Ticker: LH, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Lakeland Industries, Inc.', Ticker: LAKE, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'Macy''s, Inc.', Ticker: M, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Microsoft Corporation, Ticker: MSFT, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Moderna, Inc.', Ticker: MRNA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: AT&T Inc., Ticker: T, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 3M Company, Ticker: MMM, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Altria Group, Inc.', Ticker: MO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Micron Technology, Inc.', Ticker: MU, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Marathon Oil Corporation, Ticker: MRO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Mastercard Incorporated, Ticker: MA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYS, Name: NIO Limited, Ticker: NIO, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Novavax, Inc.', Ticker: NVAX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: NVIDIA Corporation, Ticker: NVDA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NAS, Name: 'Netflix, Inc.', Ticker: NFLX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Norwegian Cruise Line Holdings Ltd., Ticker: NCLH, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Nokia Corporation, Ticker: NOK, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: ASE, Name: 'NanoViricides, Inc.', Ticker: NNVC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE MKT}
+- {Exchange: NYQ, Name: 'NIKE, Inc.', Ticker: NKE, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Annaly Capital Management, Inc.', Ticker: NLY, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Realty Income Corporation, Ticker: O, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Occidental Petroleum Corporation, Ticker: OXY, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'OPKO Health, Inc.', Ticker: OPK, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Onconova Therapeutics, Inc.', Ticker: ONTX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Okta, Inc.', Ticker: OKTA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Ovintiv Inc., Ticker: OVV, Type: S, TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Oasis Petroleum Inc., Ticker: OAS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Oncolytics Biotech Inc., Ticker: ONCY, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Oracle Corporation, Ticker: ORCL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'ONEOK, Inc.', Ticker: OKE, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Plug Power Inc., Ticker: PLUG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Pfizer Inc., Ticker: PFE, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: The Procter & Gamble Company, Ticker: PG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: PCX, Name: ProShares Ultra VIX Short-Term Futures ETF, Ticker: UVXY,
+  Type: E, TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: NMS, Name: ProShares UltraPro QQQ, Ticker: TQQQ, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYS, Name: 'Prudential Financial, Inc.', Ticker: PRU, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: ProShares UltraPro Short QQQ, Ticker: SQQQ, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: PG&E Corporation, Ticker: PCG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Phillips 66, Ticker: PSX, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'PepsiCo, Inc.', Ticker: PEP, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: QUALCOMM Incorporated, Ticker: QCOM, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYS, Name: Qudian Inc., Ticker: QD, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Qorvo, Inc.', Ticker: QRVO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Restaurant Brands International Inc., Ticker: QSR, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: QIAGEN N.V., Ticker: QGEN, Type: S, TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: Global X NASDAQ 100 Covered Call ETF, Ticker: QYLD, Type: E,
+  TypeDisplay: ETF, exchangeDisplay: NASDAQ}
+- {Exchange: PCX, Name: ProShares Ultra QQQ, Ticker: QLD, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NYQ, Name: 'QEP Resources, Inc.', Ticker: QEP, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Ryder System, Inc.', Ticker: R, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Royal Caribbean Cruises Ltd., Ticker: RCL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NGM, Name: 'Roku, Inc.', Ticker: ROKU, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Royal Dutch Shell plc, Ticker: RDS-B, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Rite Aid Corporation, Ticker: RAD, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Transocean Ltd., Ticker: RIG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Royal Dutch Shell plc, Ticker: RDS-A, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Regeneron Pharmaceuticals, Inc.', Ticker: REGN, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Raytheon Company, Ticker: RTN, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Sprint Corporation, Ticker: S, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: PCX, Name: SPDR S&P 500 ETF Trust, Ticker: SPY, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NMS, Name: Spherix Incorporated, Ticker: SPEX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: 'Virgin Galactic Holdings, Inc.', Ticker: SPCE, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Starbucks Corporation, Ticker: SBUX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Schlumberger Limited, Ticker: SLB, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Square, Inc.', Ticker: SQ, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Tesla, Inc.', Ticker: TSLA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: VelocityShares Daily 2x VIX Short-Term ETN, Ticker: TVIX,
+  Type: E, TypeDisplay: ETF, exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: TransDigm Group Incorporated, Ticker: TDG, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Teva Pharmaceutical Industries Limited, Ticker: TEVA, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Tonix Pharmaceuticals Holding Corp., Ticker: TNXP, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: PNK, Name: 'TOMI Environmental Solutions, Inc.', Ticker: TOMZ, Type: S,
+  TypeDisplay: Equity, exchangeDisplay: OTC Markets}
+- {Exchange: NMS, Name: 'United Airlines Holdings, Inc.', Ticker: UAL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYS, Name: 'Uber Technologies, Inc.', Ticker: UBER, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: United States Steel Corporation, Ticker: X, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: PCX, Name: VelocityShares 3x Long Crude Oil ETNs linked to the S&P GSCI
+    Crude Oil Index ER New, Ticker: UWT, Type: E, TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: PCX, Name: 'United States Oil Fund, LP', Ticker: USO, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NYQ, Name: 'United Parcel Service, Inc.', Ticker: UPS, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: United Technologies Corporation, Ticker: UTX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: UnitedHealth Group Incorporated, Ticker: UNH, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Visa Inc., Ticker: V, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Vaxart, Inc.', Ticker: VXRT, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Verizon Communications Inc., Ticker: VZ, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Valero Energy Corporation, Ticker: VLO, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: ViacomCBS Inc., Ticker: VIAC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: PCX, Name: Vanguard S&P 500 ETF, Ticker: VOO, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: WCB, Name: CBOE Volatility Index, Ticker: ^VIX, Type: I, TypeDisplay: Index,
+  exchangeDisplay: Chicago Board Options Exchange}
+- {Exchange: NYQ, Name: Wayfair Inc., Ticker: W, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Wells Fargo & Company, Ticker: WFC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Walmart Inc., Ticker: WMT, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Slack Technologies, Inc.', Ticker: WORK, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: 'Wynn Resorts, Limited', Ticker: WYNN, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: 'Walgreens Boots Alliance, Inc.', Ticker: WBA, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Whiting Petroleum Corporation, Ticker: WLL, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'The Williams Companies, Inc.', Ticker: WMB, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Western Digital Corporation, Ticker: WDC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: PCX, Name: Technology Select Sector SPDR Fund, Ticker: XLK, Type: E,
+  TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: PCX, Name: SPDR S&P Oil & Gas Exploration & Production ETF, Ticker: XOP,
+  Type: E, TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: PCX, Name: Financial Select Sector SPDR Fund, Ticker: XLF, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: NMS, Name: 'Xilinx, Inc.', Ticker: XLNX, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: PCX, Name: Utilities Select Sector SPDR Fund, Ticker: XLU, Type: E, TypeDisplay: ETF,
+  exchangeDisplay: NYSEArca}
+- {Exchange: PCX, Name: Health Care Select Sector SPDR Fund, Ticker: XLV, Type: E,
+  TypeDisplay: ETF, exchangeDisplay: NYSEArca}
+- {Exchange: NYQ, Name: Alleghany Corporation, Ticker: Y, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: Yamana Gold Inc., Ticker: AUY, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Yum! Brands, Inc.', Ticker: YUM, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: JOYY Inc., Ticker: YY, Type: S, TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NMS, Name: YRC Worldwide Inc., Ticker: YRCW, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NASDAQ}
+- {Exchange: NYS, Name: 'YETI Holdings, Inc.', Ticker: YETI, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: YPF Sociedad Anonima, Ticker: YPF, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NYQ, Name: 'Yum China Holdings, Inc.', Ticker: YUMC, Type: S, TypeDisplay: Equity,
+  exchangeDisplay: NYSE}
+- {Exchange: NMS, Name: Yandex N.V., Ticker: YNDX, Type: S, TypeDisplay: Equity, exchangeDisplay: NASDAQ}
+- {Exchange: NYQ, Name: Yelp Inc., Ticker: YELP, Type: S, TypeDisplay: Equity, exchangeDisplay: NYSE}

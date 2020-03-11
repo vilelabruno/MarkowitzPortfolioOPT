@@ -8,7 +8,7 @@ import more_itertools as mit
 def readFile(stockbroker):
     shares = []
     weight = []
-    with open("../februaryData/"+stockbroker+".txt") as prtf:
+    with open("../tickers/"+stockbroker+".txt") as prtf:
         shares = prtf.readline().split(",")
         shares[len(shares)-1] = shares[len(shares)-1].strip()
         weight = prtf.readline().split(",")
@@ -19,7 +19,12 @@ def marko1():
     shares = []
     monthReturn = []
     weight = []
-    shares, weight = readFile("itau")
+    shares, weight = readFile("tickers")
+    #df = pd.read_csv('../tickers/generic.csv')
+    #shares = df['Ticker']
+    for x in ['IMRA', '1961.HK', '6918.HK', 'ENPH', '']:
+        shares.remove(x)
+    
     start_date = '2019-12-03'
     end_date = '2020-03-03'
 

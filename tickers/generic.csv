@@ -1,0 +1,216 @@
+Ticker,Name,Exchange,exchangeDisplay,Type,TypeDisplay
+B,Barnes Group Inc.,NYQ,NYSE,S,Equity
+BA,The Boeing Company,NYQ,NYSE,S,Equity
+BAC,Bank of America Corporation,NYQ,NYSE,S,Equity
+BABA,Alibaba Group Holding Limited,NYS,NYSE,S,Equity
+BP,BP PLC,NYQ,NYSE,S,Equity
+BRK-B,Berkshire Hathaway Inc.,NYQ,NYSE,S,Equity
+BYND,"Beyond Meat, Inc.",NMS,NASDAQ,S,Equity
+AVGO,Broadcom Inc.,NGM,NASDAQ,S,Equity
+BIOC,"Biocept, Inc.",NMS,NASDAQ,S,Equity
+GOLD,Barrick Gold Corporation,NMS,NASDAQ,S,Equity
+C,Citigroup Inc.,NYQ,NYSE,S,Equity
+CCL,Carnival Corporation & Plc,NYQ,NYSE,S,Equity
+CODX,"Co-Diagnostics, Inc.",NMS,NASDAQ,S,Equity
+CL,Colgate-Palmolive Company,NYQ,NYSE,S,Equity
+CHK,Chesapeake Energy Corporation,NYQ,NYSE,S,Equity
+CVX,Chevron Corporation,NYQ,NYSE,S,Equity
+COST,Costco Wholesale Corporation,NMS,NASDAQ,S,Equity
+CSCO,"Cisco Systems, Inc.",NMS,NASDAQ,S,Equity
+COCP,"Cocrystal Pharma, Inc.",OBB,OTC BB,S,Equity
+CGC,Canopy Growth Corporation,NYQ,NYSE,S,Equity
+D,"Dominion Energy, Inc.",NYQ,NYSE,S,Equity
+DIS,The Walt Disney Company,NYQ,NYSE,S,Equity
+^DJI,Dow Jones Industrial Average,DJI,Dow Jones,I,Index
+DAL,"Delta Air Lines, Inc.",NYQ,NYSE,S,Equity
+DOW,Dow Inc.,NYQ,NYSE,S,Equity
+DVN,Devon Energy Corporation,NYQ,NYSE,S,Equity
+FANG,"Diamondback Energy, Inc.",NMS,NASDAQ,S,Equity
+DGX,Quest Diagnostics Incorporated,NYQ,NYSE,S,Equity
+DNR,Denbury Resources Inc.,NYQ,NYSE,S,Equity
+DRAD,Digirad Corporation,NMS,NASDAQ,S,Equity
+E,Eni S.p.A.,NYQ,NYSE,S,Equity
+XOM,Exxon Mobil Corporation,NYQ,NYSE,S,Equity
+ET,Energy Transfer LP,NYQ,NYSE,S,Equity
+XLE,Energy Select Sector SPDR Fund,PCX,NYSEArca,E,ETF
+EPD,Enterprise Products Partners L.P.,NYQ,NYSE,S,Equity
+ENZ,"Enzo Biochem, Inc.",NYQ,NYSE,S,Equity
+ENPH,"Enphase Energy, Inc.",NMS,NASDAQ,S,Equity
+EXAS,Exact Sciences Corporation,NGM,NASDAQ,S,Equity
+EOG,"EOG Resources, Inc.",NYQ,NYSE,S,Equity
+ENB,Enbridge Inc.,NYQ,NYSE,S,Equity
+F,Ford Motor Company,NYQ,NYSE,S,Equity
+FB,"Facebook, Inc.",NMS,NASDAQ,S,Equity
+FCEL,"FuelCell Energy, Inc.",NGM,NASDAQ,S,Equity
+FNMA,Federal National Mortgage Association,OBB,OTC BB,S,Equity
+FCX,Freeport-McMoRan Inc.,NYQ,NYSE,S,Equity
+FDX,FedEx Corporation,NYQ,NYSE,S,Equity
+FHN,First Horizon National Corporation,NYQ,NYSE,S,Equity
+FSLY,"Fastly, Inc.",NYS,NYSE,S,Equity
+G,Genpact Limited,NYQ,NYSE,S,Equity
+GILD,"Gilead Sciences, Inc.",NMS,NASDAQ,S,Equity
+GADS,"Gadsden Properties, Inc.",PNK,OTC Markets,S,Equity
+GE,General Electric Company,NYQ,NYSE,S,Equity
+^GSPC,S&P 500,SNP,SNP,I,Index
+GOOG,Alphabet Inc.,NMS,NASDAQ,S,Equity
+GM,General Motors Company,NYQ,NYSE,S,Equity
+GERN,Geron Corporation,NMS,NASDAQ,S,Equity
+GLD,SPDR Gold Shares,PCX,NYSEArca,E,ETF
+GNPX,"Genprex, Inc.",NMS,NASDAQ,S,Equity
+H,Hyatt Hotels Corporation,NYQ,NYSE,S,Equity
+HTBX,"Heat Biologics, Inc.",NMS,NASDAQ,S,Equity
+HAL,Halliburton Company,NYQ,NYSE,S,Equity
+HD,"The Home Depot, Inc.",NYQ,NYSE,S,Equity
+HON,Honeywell International Inc.,NYQ,NYSE,S,Equity
+HPQ,HP Inc.,NYQ,NYSE,S,Equity
+HPE,Hewlett Packard Enterprise Company,NYQ,NYSE,S,Equity
+HP,"Helmerich & Payne, Inc.",NYQ,NYSE,S,Equity
+HSBC,HSBC Holdings plc,NYQ,NYSE,S,Equity
+HTZ,"Hertz Global Holdings, Inc.",NYS,NYSE,S,Equity
+I,Intelsat S.A.,NYQ,NYSE,S,Equity
+IMRA,IMARA INC.,NGM,NASDAQ,S,Equity
+INO,"Inovio Pharmaceuticals, Inc.",NMS,NASDAQ,S,Equity
+IBIO,"iBio, Inc.",NYQ,NYSE,S,Equity
+QQQ,Invesco QQQ Trust,NMS,NASDAQ,E,ETF
+INTC,Intel Corporation,NMS,NASDAQ,S,Equity
+IBM,International Business Machines Corporation,NYQ,NYSE,S,Equity
+TLT,iShares 20+ Year Treasury Bond ETF,NMS,NASDAQ,E,ETF
+^IXIC,NASDAQ Composite,NIM,NASDAQ GIDS,I,Index
+VXX,iPath Series B S&P 500 VIX Short-Term Futures ETN,PCX,NYSEArca,E,ETF
+J,Jacobs Engineering Group Inc.,NMS,NASDAQ,S,Equity
+JPM,JPMorgan Chase & Co.,NYQ,NYSE,S,Equity
+JNJ,Johnson & Johnson,NYQ,NYSE,S,Equity
+JBLU,JetBlue Airways Corporation,NMS,NASDAQ,S,Equity
+JD,"JD.com, Inc.",NMS,NASDAQ,S,Equity
+JCP,"J. C. Penney Company, Inc.",NYQ,NYSE,S,Equity
+JETS,U.S. Global Jets ETF,PCX,NYSEArca,E,ETF
+1961.HK,Jiu Zun Digital Interactive Entertainment Group Holdings Limited,HKG,Hong Kong,S,Equity
+JNUG,Direxion Daily Junior Gold Miners Index Bull 3X Shares,PCX,NYSEArca,E,ETF
+JMIA,Jumia Technologies AG,NYS,NYSE,S,Equity
+K,Kellogg Company,NYQ,NYSE,S,Equity
+KO,The Coca-Cola Company,NYQ,NYSE,S,Equity
+KHC,The Kraft Heinz Company,NMS,NASDAQ,S,Equity
+KMI,"Kinder Morgan, Inc.",NYQ,NYSE,S,Equity
+KR,The Kroger Co.,NYQ,NYSE,S,Equity
+KSS,Kohl's Corporation,NYQ,NYSE,S,Equity
+KMB,Kimberly-Clark Corporation,NYQ,NYSE,S,Equity
+6918.HK,"Kidztech (Guangdong) Intelligent Technology Co., Ltd.",HKG,Hong Kong,S,Equity
+KEY,KeyCorp,NYQ,NYSE,S,Equity
+L,Loews Corporation,NYQ,NYSE,S,Equity
+LK,Luckin Coffee Inc.,NMS,NASDAQ,S,Equity
+LUV,Southwest Airlines Co.,NYQ,NYSE,S,Equity
+LMT,Lockheed Martin Corporation,NYQ,NYSE,S,Equity
+LDOS,"Leidos Holdings, Inc.",NYQ,NYSE,S,Equity
+LYFT,"Lyft, Inc.",NMS,NASDAQ,S,Equity
+LPSN,"LivePerson, Inc.",NMS,NASDAQ,S,Equity
+LVS,Las Vegas Sands Corp.,NYQ,NYSE,S,Equity
+LH,Laboratory Corporation of America Holdings,NYQ,NYSE,S,Equity
+LAKE,"Lakeland Industries, Inc.",NMS,NASDAQ,S,Equity
+M,"Macy's, Inc.",NYQ,NYSE,S,Equity
+MSFT,Microsoft Corporation,NMS,NASDAQ,S,Equity
+MRNA,"Moderna, Inc.",NMS,NASDAQ,S,Equity
+T,AT&T Inc.,NYQ,NYSE,S,Equity
+MMM,3M Company,NYQ,NYSE,S,Equity
+MO,"Altria Group, Inc.",NYQ,NYSE,S,Equity
+MU,"Micron Technology, Inc.",NMS,NASDAQ,S,Equity
+MRO,Marathon Oil Corporation,NYQ,NYSE,S,Equity
+MA,Mastercard Incorporated,NYQ,NYSE,S,Equity
+NIO,NIO Limited,NYS,NYSE,S,Equity
+NVAX,"Novavax, Inc.",NMS,NASDAQ,S,Equity
+NVDA,NVIDIA Corporation,NMS,NASDAQ,S,Equity
+NFLX,"Netflix, Inc.",NAS,NASDAQ,S,Equity
+NCLH,Norwegian Cruise Line Holdings Ltd.,NMS,NASDAQ,S,Equity
+NOK,Nokia Corporation,NYQ,NYSE,S,Equity
+NNVC,"NanoViricides, Inc.",ASE,NYSE MKT,S,Equity
+NKE,"NIKE, Inc.",NYQ,NYSE,S,Equity
+NLY,"Annaly Capital Management, Inc.",NYQ,NYSE,S,Equity
+O,Realty Income Corporation,NYQ,NYSE,S,Equity
+OXY,Occidental Petroleum Corporation,NYQ,NYSE,S,Equity
+OPK,"OPKO Health, Inc.",NMS,NASDAQ,S,Equity
+ONTX,"Onconova Therapeutics, Inc.",NMS,NASDAQ,S,Equity
+OKTA,"Okta, Inc.",NMS,NASDAQ,S,Equity
+OVV,Ovintiv Inc.,NMS,NASDAQ,S,Equity
+OAS,Oasis Petroleum Inc.,NMS,NASDAQ,S,Equity
+ONCY,Oncolytics Biotech Inc.,NMS,NASDAQ,S,Equity
+ORCL,Oracle Corporation,NMS,NASDAQ,S,Equity
+OKE,"ONEOK, Inc.",NYQ,NYSE,S,Equity
+PLUG,Plug Power Inc.,NMS,NASDAQ,S,Equity
+PFE,Pfizer Inc.,NYQ,NYSE,S,Equity
+PG,The Procter & Gamble Company,NYQ,NYSE,S,Equity
+UVXY,ProShares Ultra VIX Short-Term Futures ETF,PCX,NYSEArca,E,ETF
+TQQQ,ProShares UltraPro QQQ,NMS,NASDAQ,E,ETF
+PRU,"Prudential Financial, Inc.",NYS,NYSE,S,Equity
+SQQQ,ProShares UltraPro Short QQQ,NMS,NASDAQ,E,ETF
+PCG,PG&E Corporation,NYQ,NYSE,S,Equity
+PSX,Phillips 66,NYQ,NYSE,S,Equity
+PEP,"PepsiCo, Inc.",NYQ,NYSE,S,Equity
+QCOM,QUALCOMM Incorporated,NMS,NASDAQ,S,Equity
+QD,Qudian Inc.,NYS,NYSE,S,Equity
+QRVO,"Qorvo, Inc.",NMS,NASDAQ,S,Equity
+QSR,Restaurant Brands International Inc.,NYQ,NYSE,S,Equity
+QGEN,QIAGEN N.V.,NMS,NASDAQ,S,Equity
+QYLD,Global X NASDAQ 100 Covered Call ETF,NMS,NASDAQ,E,ETF
+QLD,ProShares Ultra QQQ,PCX,NYSEArca,E,ETF
+QEP,"QEP Resources, Inc.",NYQ,NYSE,S,Equity
+R,"Ryder System, Inc.",NYQ,NYSE,S,Equity
+RCL,Royal Caribbean Cruises Ltd.,NYQ,NYSE,S,Equity
+ROKU,"Roku, Inc.",NGM,NASDAQ,S,Equity
+RDS-B,Royal Dutch Shell plc,NYQ,NYSE,S,Equity
+RAD,Rite Aid Corporation,NYQ,NYSE,S,Equity
+RIG,Transocean Ltd.,NYQ,NYSE,S,Equity
+RDS-A,Royal Dutch Shell plc,NYQ,NYSE,S,Equity
+REGN,"Regeneron Pharmaceuticals, Inc.",NMS,NASDAQ,S,Equity
+RTN,Raytheon Company,NYQ,NYSE,S,Equity
+S,Sprint Corporation,NYQ,NYSE,S,Equity
+SPY,SPDR S&P 500 ETF Trust,PCX,NYSEArca,E,ETF
+SPEX,Spherix Incorporated,NMS,NASDAQ,S,Equity
+SPCE,"Virgin Galactic Holdings, Inc.",NYQ,NYSE,S,Equity
+SBUX,Starbucks Corporation,NMS,NASDAQ,S,Equity
+SLB,Schlumberger Limited,NYQ,NYSE,S,Equity
+SQ,"Square, Inc.",NYQ,NYSE,S,Equity
+TSLA,"Tesla, Inc.",NMS,NASDAQ,S,Equity
+TVIX,VelocityShares Daily 2x VIX Short-Term ETN,NMS,NASDAQ,E,ETF
+TDG,TransDigm Group Incorporated,NYQ,NYSE,S,Equity
+TEVA,Teva Pharmaceutical Industries Limited,NYQ,NYSE,S,Equity
+TNXP,Tonix Pharmaceuticals Holding Corp.,NMS,NASDAQ,S,Equity
+TOMZ,"TOMI Environmental Solutions, Inc.",PNK,OTC Markets,S,Equity
+UAL,"United Airlines Holdings, Inc.",NMS,NASDAQ,S,Equity
+UBER,"Uber Technologies, Inc.",NYS,NYSE,S,Equity
+X,United States Steel Corporation,NYQ,NYSE,S,Equity
+UWT,VelocityShares 3x Long Crude Oil ETNs linked to the S&P GSCI Crude Oil Index ER New,PCX,NYSEArca,E,ETF
+USO,"United States Oil Fund, LP",PCX,NYSEArca,E,ETF
+UPS,"United Parcel Service, Inc.",NYQ,NYSE,S,Equity
+UTX,United Technologies Corporation,NYQ,NYSE,S,Equity
+UNH,UnitedHealth Group Incorporated,NYQ,NYSE,S,Equity
+V,Visa Inc.,NYQ,NYSE,S,Equity
+VXRT,"Vaxart, Inc.",NMS,NASDAQ,S,Equity
+VZ,Verizon Communications Inc.,NYQ,NYSE,S,Equity
+VLO,Valero Energy Corporation,NYQ,NYSE,S,Equity
+VIAC,ViacomCBS Inc.,NMS,NASDAQ,S,Equity
+VOO,Vanguard S&P 500 ETF,PCX,NYSEArca,E,ETF
+^VIX,CBOE Volatility Index,WCB,Chicago Board Options Exchange,I,Index
+W,Wayfair Inc.,NYQ,NYSE,S,Equity
+WFC,Wells Fargo & Company,NYQ,NYSE,S,Equity
+WMT,Walmart Inc.,NYQ,NYSE,S,Equity
+WORK,"Slack Technologies, Inc.",NYQ,NYSE,S,Equity
+WYNN,"Wynn Resorts, Limited",NMS,NASDAQ,S,Equity
+WBA,"Walgreens Boots Alliance, Inc.",NMS,NASDAQ,S,Equity
+WLL,Whiting Petroleum Corporation,NYQ,NYSE,S,Equity
+WMB,"The Williams Companies, Inc.",NYQ,NYSE,S,Equity
+WDC,Western Digital Corporation,NMS,NASDAQ,S,Equity
+XLK,Technology Select Sector SPDR Fund,PCX,NYSEArca,E,ETF
+XOP,SPDR S&P Oil & Gas Exploration & Production ETF,PCX,NYSEArca,E,ETF
+XLF,Financial Select Sector SPDR Fund,PCX,NYSEArca,E,ETF
+XLNX,"Xilinx, Inc.",NMS,NASDAQ,S,Equity
+XLU,Utilities Select Sector SPDR Fund,PCX,NYSEArca,E,ETF
+XLV,Health Care Select Sector SPDR Fund,PCX,NYSEArca,E,ETF
+Y,Alleghany Corporation,NYQ,NYSE,S,Equity
+AUY,Yamana Gold Inc.,NYQ,NYSE,S,Equity
+YUM,"Yum! Brands, Inc.",NYQ,NYSE,S,Equity
+YY,JOYY Inc.,NMS,NASDAQ,S,Equity
+YRCW,YRC Worldwide Inc.,NMS,NASDAQ,S,Equity
+YETI,"YETI Holdings, Inc.",NYS,NYSE,S,Equity
+YPF,YPF Sociedad Anonima,NYQ,NYSE,S,Equity
+YUMC,"Yum China Holdings, Inc.",NYQ,NYSE,S,Equity
+YNDX,Yandex N.V.,NMS,NASDAQ,S,Equity
+YELP,Yelp Inc.,NYQ,NYSE,S,Equity

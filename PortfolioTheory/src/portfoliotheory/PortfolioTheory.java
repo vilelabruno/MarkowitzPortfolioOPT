@@ -15,6 +15,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.Vector;
 
 /**
@@ -33,8 +34,8 @@ public class PortfolioTheory {
         BufferedReader br = new BufferedReader(new FileReader(file));
         
         // natural variables
-        int n = 8; // number of shares
-        int A = 0; // risk index
+        int n = 211; // number of shares
+        int A = 1; // risk index
         
         String st = br.readLine();
         String[] shares = new String[n]; // share names
@@ -53,7 +54,7 @@ public class PortfolioTheory {
             st = br.readLine();
             for (int j = 0; j < n; j++) {
                 if (i == j) {
-                    sigma[i][j] = 0.0;
+                    sigma[i][j] = 1.0;
                 } else if (j < i) {
                     sigma[i][j] = Double.parseDouble(st.split(",")[j]);
                 } else {
@@ -81,7 +82,7 @@ public class PortfolioTheory {
         for (int i = 0; i < n; i++) {
             IloLinearNumExpr rest2 = model.linearNumExpr();
             rest2.addTerm(x[i], 1);
-            model.addGe(rest2, 0.01);
+            model.addGe(rest2, 0.0);
         }
         
         // objective function
@@ -117,17 +118,26 @@ public class PortfolioTheory {
         IloNumExpr obj = model.sum(todasExpr, exp2);
         model.add(model.minimize(obj));
         
-        // prameter
-        model.setParam(IloCplex.Param.SolutionTarget, 2);
+        // parameter
+        model.setParam(IloCplex.Param.SolutionTarget, 3);
         
         if (model.solve()) {
             System.out.println("Objective Value:");
             System.out.println(model.getObjValue());
+            System.out.println("Status:");
+            System.out.println(model.getStatus());
             System.out.println("Shares:");
             for (int i = 0; i < n; i++) {
-                System.out.println((i+1)+"- "+shares[i]+": "+model.getValue(x[i])*100);
+                System.out.println(i+"- "+shares[i]+": "+truncateDecimal(model.getValue(x[i])*100, 2));
             }
         }
     }
-    
+
+    private static BigDecimal truncateDecimal(double x, int numberofDecimals) {
+        if (x > 0) {
+            return new BigDecimal(String.valueOf(x)).setScale(numberofDecimals, BigDecimal.ROUND_FLOOR);
+        } else {
+            return new BigDecimal(String.valueOf(x)).setScale(numberofDecimals, BigDecimal.ROUND_CEILING);
+        }
+    }
 }
